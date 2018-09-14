@@ -10,46 +10,46 @@
  
  1. `9 == 9`
  */
-
+true
 
 /*:
  2. `9 != 9`
  */
-
+false
 
 /*: 
  3. `47 > 90`
  */
-
+false
 
 /*:
  4. `47 < 90`
  */
-
+true
 
 /*:
  5. `4 <= 4`
  */
-
+false
 
 /*:
  6. `4 >= 5`
  */
-
+false
 
 /*:
  7. `(47 > 90) && (47 < 90)`
  */
-
+false
 
 /*:
  8. `(47 > 90) || (47 < 90)`
  */
-
+true
 
 /*:
  9. `!true`
  */
-
+false
 
 //: page 1 of 9  |  [Next: Exercise - If and If-Else Statements](@next)

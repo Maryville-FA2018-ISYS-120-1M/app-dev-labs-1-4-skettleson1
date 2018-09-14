@@ -10,6 +10,18 @@
 let targetLowerBound = 120
 let targetUpperBound = 150
 let currentHR = 147
+if currentHR <= targetUpperBound && currentHR >= targetLowerBound {print("Good job! You are spot on.")}
 
-
+let isInTarget = 147
+let isBelowTarget = 119
+let isAboveTarget = 151
+if isInTarget <= targetUpperBound && isInTarget >= targetLowerBound {print("You're right on track!")}
+else if isInTarget <= targetLowerBound {print("You're doing great, but try to push it a bit!")}
+else if isInTarget >= targetUpperBound {print("You're on fire! Slow it down just a bit.")}
+if isBelowTarget <= targetUpperBound && isBelowTarget >= targetLowerBound {print("You're right on track!")}
+else if isBelowTarget <= targetLowerBound {print("You're doing great, but try to push it a bit!")}
+else if isBelowTarget >= targetUpperBound {print("You're on fire! Slow it down just a bit.")}
+if isAboveTarget <= targetUpperBound && currentHR >= targetLowerBound {print("You're right on track!")}
+else if isAboveTarget <= targetLowerBound {print("You're doing great, but try to push it a bit!")}
+else if isAboveTarget >= targetUpperBound {print("You're on fire! Slow it down just a bit.")}
 //: [Previous](@previous)  |  page 5 of 9  |  [Next: Exercise - Switch Statements](@next)
